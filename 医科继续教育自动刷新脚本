@@ -1,0 +1,35 @@
+// ==UserScript==
+// @name         医科继续教育自动刷新脚本
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       Coolstuz
+// @match        https://www.dianmoyun.com/Course/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=greasyfork.org
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    /*$(()=>{
+        console.log('加载成功');
+        let itemLength=$('.jwitem').length;
+        for (let i = 0; i <= itemLength; i++) {
+
+            setTimeout(() => $(".jwitem")[i].click(), 5000 * i)
+
+          }
+
+    })*/
+
+
+    setTimeout(function(){
+        location.reload(true);
+    }, 2940000);
+
+
+    
+    /*document.getElementsByClassName("jwitem")[i].click()*/
+    // Your code here...
+})();
